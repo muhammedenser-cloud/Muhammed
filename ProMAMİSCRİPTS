@@ -1,4 +1,4 @@
-getgetnv().SCRIPT_KEY = "KEYLESS"
+getgenv().SCRIPT_KEY = "KEYLESS"
 
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
