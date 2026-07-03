@@ -1,0 +1,13 @@
+getgenv().SCRIPT_KEY = "KEYLESS"
+print("ByEnserHub yükleniyor...")
+
+local player = game.Players.LocalPlayer
+local sg = game:GetService("StarterGui")
+
+sg:SetCore("SendNotification", {
+    Title = "ByEnserHub",
+    Text = "Test başarılı!",
+    Duration = 3
+})
+
+print("ByEnserHub yüklendi!")
